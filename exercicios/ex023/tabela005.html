@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de tabelas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 500px;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: center
+        }
+
+        caption{
+            font-size: 1,3rem;
+            font-weight: bolder;
+            padding: 8px
+        }
+
+        .destaque {
+            background-color: #f2f2f2;
+        }
+
+        col.Nome {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela de Exercicios</h1>
+    <table>
+        <colgroup>
+        <col class="Nome">
+        <col class="sexo">
+        <col class="idade">
+        <col class="destaque">
+        </colgroup>
+        <caption>cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">sexo</th>
+            <th scope="col">idade</th>
+            <th scope="col">profissão</th>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>M</td>
+            <td>25</td>
+            <td>Engenheiro</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>F</td>
+            <td>30</td>
+            <td>Medica</td>
+        </tr>
+        <tr>
+            <td>Carlos</td>
+            <td>M</td>
+            <td>28</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>ana</td>
+            <td>F</td>
+            <td>22</td>
+            <td>Advogada</td>
+        </tr>
+        <tr>
+            <td>pedro</td>
+            <td>M</td>
+            <td>35</td>
+            <td>Arquiteto</td>
+        </tr>
+        <tr>
+            <td>lu</td>
+            <td>F</td>
+            <td>27</td>
+            <td>Designer</td>
+        </tr>
+    </table>
+</body>
+</html>
